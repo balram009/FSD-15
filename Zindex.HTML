@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            margin: 0;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center ;
+        } */
+        div{
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;
+        }
+        .Box1{
+            position: absolute;
+            background-color: red;
+            z-index: 100;
+            top: 50px;
+            bottom: 100px;
+            left: 150px;
+            right: 200px;
+        }
+        .Box2{
+            position: absolute;
+            background-color: blue;
+            z-index: 100;
+            top: 70px;
+            bottom: 140px;
+            left: 210px;
+            right: 280px;
+            /* visibility: hidden; /*  Hides the box and maintain the gap b/w the boxes */
+            /* display: none; */ */
+            
+        }
+        .Box3{
+            position: absolute;
+            background-color: green;
+            z-index: 100;
+            top: 90px;
+            bottom: 180px;
+            left: 270px;
+            right: 3600px;
+        }
+        .Box4{
+            position: absolute;
+            background-color: yellow;
+            z-index: 100;
+            top: 110px;
+            bottom: 220px;
+            left: 330px;
+            right: 440px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Box1"></div>
+    <div class="Box2"></div>
+    <div class="Box3"></div>
+    <div class="Box4"></div>
+</body>
+</html>
