@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    p:hover{
+        display: none;
+    }
+    button{
+        background-color: aqua;
+    } 
+    button:hover{
+        background-color:brown;
+    }
+    img:hover{
+        height: 200px;
+        width: 200px;
+    }
+    p{
+        display: none;
+    }
+    button:hover +p{
+        display: block;
+    }
+    .btn-grad {
+  background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49 51%, #3CA55C 100%);
+}
+
+.btn-grad { 
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+  </style>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus
+      corrupti, obcaecati ab nemo labore provident perferendis numquam
+      praesentium debitis possimus. Id corrupti dignissimos ex, consequatur
+      numquam incidunt obcaecati placeat.
+    </p>
+    <button>Click</button>
+    <img height="100px" width="100px" src="https://img.freepik.com/free-photo/closeup-shot-beautiful-butterfly-with-interesting-textures-orange-petaled-flower_181624-7640.jpg?semt=ais_hybrid&w=740&q=80"/>
+     <button class="btn-grad">Press</button>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, expedita.</p>
+
+  </body>
+</html>

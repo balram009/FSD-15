@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        height: 100vh;
+    }
+    .header{
+        background-color: brown;
+        color: white;
+        /* margin: 5px; */
+        padding: 20px;
+    }
+    .main{
+       background-color: blueviolet; 
+       min-height: calc(100vh - 117px);
+       display: flex;
+    }
+    .footer{
+            background-color:brown;
+            /* margin: 5px; */
+            padding: 20px;
+        }
+        .sidebar{
+            background-color: bisque;
+            width: 16%;
+        }
+        .content{
+            background-color:blue;
+            width: 70%;
+            display: flex;
+        }
+        .ads{
+            background-color:blueviolet;
+            width: 14%;
+        }
+        .item{
+            background-color: chocolate;
+            margin: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+        .item:hover{
+            background-color: bisque;
+        }
+        
+        .cards1{
+            margin: 50px;
+            border-radius: 20px;
+            
+        }
+        .cards2{
+            margin: 50px;
+            border-radius: 20px;
+        }
+        .cards3{
+            margin: 50px;
+            border-radius: 20px;
+        }
+        .cards4{
+            margin: 50px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Header</div>
+    <div class="main">
+        <div class="sidebar">
+            <div class="item">HTML</div>
+            <div class="item">CSS</div>
+            <div class="item">JS</div>
+            <div class="item">NODE JS</div>
+            <div class="item">React</div>
+            <div class="item">Express</div>
+            <div class="item">MongoDB</div>
+            <div class="item">Nest JS</div>
+            <div class="item">Next JS</div>
+            <div class="item">NUXT JS</div>
+        </div>
+        <div class="content">
+           <H1>Our Courses</H1>
+        <div class="cards1">
+            <img height="150px" width="150px" src="https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8.jpg"/>
+        </div>
+        <div class="cards2">
+            <img height="150px" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Vi-9s2kE3foR4uscDulUfu_YQxlWsl1sFQ&s"/>
+        </div>
+        <div class="cards3">
+            <img height="150px" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8t_Jo5PEgYMqz5VAZUDmHWWEsIXY0pgrqvg&s"/>
+        </div>
+        <div class="cards4">
+            <img height="150px" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGlxIKbruSKVn8_n3RhoQNtpOTeWud17HodA&s"/>
+        </div>
+        </div>
+        <div class="ads">ads</div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
